@@ -29,7 +29,9 @@ public class loginPage {
     }
 
     public  void clickLogin(){
+
         driver.findElement(btn_login).click();
+        System.out.println("I am new ");
     }
     public boolean checkLogoutIsDisplayed(){
        return driver.findElement(btn_logout).isDisplayed();
